@@ -1,0 +1,23 @@
+feulo-ocean //gitub do prof
+http://turing.com.br/material/flask/tutorial/schema.html //link do tutorial
+gitpod.io/#https://github.com/julianasf-91/python_html_css
+pip install flask python-dotenv pyngrok
+pip freeze //ve o que foi instalado
+pip freeze > requirements.txt //cria um arquivo do que foi instalado
+pip install -r requirements.txt //instala todas as dependencias de acordo com o arquivo requirements.txt
+python3 app.py //rodar o arquivo no terminal
+from flask import Flask //importa a bibliteca
+app = Flask(__name__) //guarda dentro de uma variável
+decoration //pesquisar sobre
+# //adiciona um comentário
+arquivo .flaskenv //arquivo de configuração
+flask run //rodar o flask
+https://5000-gray-loon-jbp8cu4a.ws-us16.gitpod.io/hello //para encontrar a url vá em Remote Explore, deixa em open(public) e aperte o globo da porta 5000, adicione /hello
+Ctrl + C //mata o flask run no terminal
+static //serve para guardar aqruivos estáticos, imagem, vídeos algum código
+templates //misto de html e de python 
+esquela //define nossas tabelas e relacionamentos
+app.config.from_object(__name__) //carrega as configurações manualmente
+clear /limpa o terminal
+sqlite3 blog.db < esquema.sql //criou o arquivo blog.db
+porta 3000 //não abre no navegador por que é um serviço interno
